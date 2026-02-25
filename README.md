@@ -65,11 +65,11 @@ Completely isolated from mathematical logic and UI.
 
 Flyweight object representing a representation type (e.g., `FULL`, `PCA`).
 
-### RepresentationSource`<T>`{=html}
+### RepresentationSource`<T>`
 
 Interface defining a source of embeddings for a given representation.
 
-### JsonSource`<T>`{=html}
+### JsonSource`<T>
 
 Loads embeddings from JSON files using Java streams, validates
 identifiers and dimensions, and returns immutable mappings.
@@ -111,19 +111,19 @@ All vector operations are pure and return new immutable instances.
 
 ## Embedding Structure
 
-### EmbeddingSingle`<T>`{=html}
+### EmbeddingSingle`<T>
 
 Represents a single entity with multiple vector representations.
 
-### EmbeddingGroup`<T>`{=html}
+### EmbeddingGroup`<T>`
 
 Represents a collection of embeddings with centralized access.
 
-### EmbeddingItem`<T>`{=html}
+### EmbeddingItem`<T>`
 
 Immutable implementation of `EmbeddingSingle`.
 
-### EmbeddingStorage`<T>`{=html}
+### EmbeddingStorage`<T>
 
 Immutable in-memory implementation of `EmbeddingGroup`.
 
